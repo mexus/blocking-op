@@ -1,0 +1,13 @@
+[package]
+name = "blocking-op"
+version = "0.1.0"
+authors = ["mexus <gilaldpellaeon@gmail.com>"]
+edition = "2018"
+description = "Backpressure on a slow/synchronous worker"
+publish = false
+
+[dependencies]
+futures = "0.1"
+log = "0.4.6"
+simple_logger = "1.0.1"
+tokio = "0.1"
